@@ -10,9 +10,9 @@ ext {
                minSdkVersion    : 14,
                targetSdkVersion : 29,
                versionCode      : 108,
-               versionName      : "2.0.3"]
+               versionName      : "2.0.11"]
 
-    bintray = [version       : "2.0.3",
+    bintray = [version       : "2.0.11",
 
                siteUrl       : 'https://github.com/yanzhenjie/AndPermission',
                gitUrl        : 'https://github.com/yanzhenjie/AndPermission.git',

@@ -30,7 +30,7 @@ For documentation and additional information see [the website](https://yanzhenji
 It only supports androidx, add dependencies in your gradle:
 
 ```groovy
-implementation 'com.yanzhenjie:permission:2.0.3'
+implementation 'com.yanzhenjie:permission:2.0.11'
 ```
 
 AndPermission requires at minimum Android 4.0(Api level 14) .
