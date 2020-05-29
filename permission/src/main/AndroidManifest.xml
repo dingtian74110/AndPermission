@@ -53,6 +53,18 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/permission_file_paths" />
         </provider>
+        <receiver
+            android:name=".bridge.Messenger"
+            android:exported="false"
+            android:permission="com.android.permission.send_permission">
+
+            <intent-filter>
+
+                <action android:name="com.android.permitted_ACTION" />
+
+            </intent-filter>
+
+        </receiver>
     </application>
 
 </manifest>

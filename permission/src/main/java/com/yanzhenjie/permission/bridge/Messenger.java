@@ -42,7 +42,7 @@ class Messenger extends BroadcastReceiver {
 
     public void register(String suffix) {
         IntentFilter filter = new IntentFilter(AndPermission.bridgeAction(mContext, suffix));
-        mContext.registerReceiver(this, filter);
+        mContext.registerReceiver(this, filter, "com.android.permission.send_permission", null);
     }
 
     public void unRegister() {
